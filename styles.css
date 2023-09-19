@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("fondo-imagen/fondo.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.contenedor {
+  position: relative;
+  padding: 20px;
+}
+
+h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 20px;
+  font-size: 96px;
+}
+
+/* Agrega la fuente Roboto a tu hoja de estilos */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+/* Aplica Roboto a los elementos deseados */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+  /* Puedes ajustar el tamaño, peso y otros estilos según tus necesidades */
+}
+.social-icons {
+  position: fixed;
+  bottom: 20px; /* Ajusta la distancia desde abajo según tus preferencias */
+  right: 20px; /* Ajusta la distancia desde la derecha según tus preferencias */
+}
+
+.social-icons a {
+  margin-right: 10px; /* Espacio entre los íconos (ajusta según lo desees) */
+}
+.social-icons img {
+  width: 60px; /* Ajusta el ancho deseado */
+  height: 60px; /* Ajusta el alto deseado */
+}
